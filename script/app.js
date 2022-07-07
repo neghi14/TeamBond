@@ -12,3 +12,4 @@ clickerClose.addEventListener('click', () => {
     navLinks.classList.remove('active');
     navBtn.classList.remove('active');
 });
+
