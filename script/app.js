@@ -4,11 +4,11 @@ const navLinks = document.querySelector('.nav-links');
 const navBtn = document.querySelector('.nav-btn');
 
 clickerOpen.addEventListener('click', () => {
-    navLinks.classList.remove('hidden');
-    navBtn.classList.remove('hidden');
+    navLinks.classList.add('active');
+    navBtn.classList.add('active');
 });
 
 clickerClose.addEventListener('click', () => {
-    navLinks.classList.add('hidden');
-    navBtn.classList.add('hidden');
-})
+    navLinks.classList.remove('active');
+    navBtn.classList.remove('active');
+});

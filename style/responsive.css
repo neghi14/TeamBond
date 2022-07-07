@@ -19,7 +19,7 @@
         width: 100%;
         height: 100vh;
         padding: 10px 20px;
-        display: flex;
+        display: none;
         position: fixed;
         flex-direction: column;
         align-items: flex-start;
@@ -32,11 +32,11 @@
     }
 
     .nav-btn {
+        display: none;
         padding: 10px 20px;
         top: 550px;
         left: 0;
         position: fixed;
-        display: flex;
         align-items: flex-start;
         flex-direction: column;
         z-index: 2;
