@@ -1,0 +1,122 @@
+.hero {
+    display: flex;
+    align-items: center;
+    gap: var(--biggest);
+    padding: 60px 120px;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--big);
+}
+
+.hero-image{
+    width: 608px;
+}
+
+.circle {
+    position: absolute;
+    background-color: var(--lightPurple);
+    width: 786px;
+    height: 786px;
+    border-radius: 50%;
+    margin-top: -150px;
+    left: 250;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.services {
+    display: flex;
+    gap: 100px;
+    padding: 77px 243px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: var(--midSmall);
+}
+
+.service-img-bg {
+    width: 64px;
+    height: 64px;
+    border-radius: 2px;
+    background-color: var(--inBetweenLight);
+}
+
+.offers-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.offers-select div {
+    padding: 36px 40px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    cursor: pointer;
+}
+
+.offers-select div h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #818174;
+}
+
+.active-offer{
+    background-color: #FAF6FA;
+}
+
+.offers {
+    background-color: #FAF6FA;
+    padding: 66px 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 117px;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    gap: var(--biggest);
+}
+
+.offer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--biggest);
+}
+
+.offer-text a {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.trial {
+    padding: 50px 199px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.trial a {
+    text-decoration: none;
+    padding: 10px 29px;
+    background: var(--gradient);
+    border-radius: 4px;
+    box-shadow: var(--smallShadow);
+}

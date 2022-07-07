@@ -1,0 +1,128 @@
+@media(max-width:48rem) {
+    footer {
+        flex-direction: column;
+        gap: 100px;
+        align-items: flex-start;
+    }
+
+    .footer-nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--midBig);
+    }
+
+    .nav-links {
+        top: 0;
+        gap: var(--biggest);
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 10px 20px;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .nav-links li {
+        font-size: 1.625em;
+    }
+
+    .nav-btn {
+        padding: 10px 20px;
+        top: 550px;
+        left: 0;
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        z-index: 2;
+    }
+    .nav-btn a{
+        font-size: 1em;
+    }
+
+    .clicker-open {
+        display: block;
+        width: 30px;
+    }
+
+    .clicker-close {
+        display: block;
+        width: 40px;
+        margin-left: 250px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        padding: 20px 40px;
+        gap: var(--big);
+    }
+
+    .hero-image {
+        width: 380px;
+    }
+
+    .hero-text-content {
+        gap: var(--midBig);
+    }
+
+    .circle {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 10;
+        top: 0;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 50px;
+        padding: 22px 80px;
+    }
+
+    .offers {
+        padding: 20px 60px;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+
+    .offer:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    .offer img {
+        width: 300px;
+        height: 200px
+    }
+
+    .offer-text {
+        gap: var(--midBig);
+    }
+
+    .trial {
+        padding: 20px 60px;
+    }
+
+    .offers-select div {
+        padding: 15px 20px;
+    }
+
+    .offers-select div h2 {
+        font-size: 1.125em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #818174;
+    }
+
+    .active-offer-text {
+        font-weight: 700 !important;
+    }
+}
