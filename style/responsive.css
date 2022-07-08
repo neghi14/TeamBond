@@ -28,7 +28,7 @@
         flex-direction: column;
         align-items: flex-start;
         background-color: white;
-        animation: fadeIn .2s ease;
+        animation: fadeIn .2s linear;
         z-index: 2;
     }
 
@@ -127,5 +127,11 @@
 
     .active-offer-text {
         font-weight: 700 !important;
+    }
+    .price{
+        padding: 20px 50px;
+    }
+    .price-cards{
+        flex-direction: column;
     }
 }

@@ -73,6 +73,9 @@ footer div {
     gap: var(--midSmall);
 }
 
+.lightPurple{
+    color: var(--lightPurple);
+}
 .purple {
     color: var(--purple);
 }
