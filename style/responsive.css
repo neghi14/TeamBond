@@ -95,7 +95,7 @@
         flex-direction: column;
     }
 
-    .offer:nth-of-type(2) {
+    .offer:nth-of-type(odd) {
         flex-direction: column-reverse;
     }
 
