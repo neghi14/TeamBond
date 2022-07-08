@@ -55,7 +55,7 @@
 }
 
 header {
-    padding: 17px 0;
+    padding: 17px 120px;
 }
 
 footer {
@@ -336,7 +336,7 @@ footer div {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .nav-links {
     display: flex;
@@ -375,6 +375,7 @@ footer div {
     display: flex;
     align-items: center;
     gap: var(--midBig);
+    margin-left: 100px;
 }
 
 .nav-btn a {

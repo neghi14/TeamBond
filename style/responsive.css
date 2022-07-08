@@ -1,15 +1,19 @@
-@media(max-width:48rem) {
+@media(max-width:768px) {
+    header {
+        padding: 17px 30px;
+    }
+
     footer {
-        flex-direction: column;
         gap: 100px;
+        flex-direction: column;
         align-items: flex-start;
     }
 
     .footer-nav-links {
         display: flex;
+        gap: var(--midBig);
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--midBig);
     }
 
     .nav-links {
@@ -24,6 +28,7 @@
         flex-direction: column;
         align-items: flex-start;
         background-color: white;
+        animation: fadeIn .2s linear;
         z-index: 2;
     }
 
@@ -33,15 +38,13 @@
 
     .nav-btn {
         display: none;
-        padding: 20px 40px;
-        top: 550px;
-        left: 0;
-        position: fixed;
-        align-items: flex-start;
+        margin-left: 0;
         flex-direction: column;
+        align-items: flex-start;
         z-index: 2;
     }
-    .nav-btn a{
+
+    .nav-btn a {
         font-size: 1em;
     }
 
@@ -51,15 +54,15 @@
     }
 
     .clicker-close {
-        display: block;
         width: 40px;
+        display: block;
         margin-left: 300px;
     }
 
     .hero {
-        flex-direction: column-reverse;
-        padding: 20px 40px;
         gap: var(--big);
+        padding: 20px 40px;
+        flex-direction: column-reverse;
     }
 
     .hero-image {
@@ -71,17 +74,17 @@
     }
 
     .circle {
-        position: absolute;
+        top: 0;
+        left: 10;
         width: 350px;
         height: 350px;
-        left: 10;
-        top: 0;
+        position: absolute;
     }
 
     .services {
-        flex-direction: column;
         gap: 50px;
         padding: 22px 80px;
+        flex-direction: column;
     }
 
     .offers {
