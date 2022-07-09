@@ -29,7 +29,6 @@
 
 .selector div {
     top: 2px;
-    left: 2px;
     position: absolute;
     height: 16px;
     width: 16px;
@@ -37,44 +36,56 @@
     background-color: var(--white);
 }
 
-.price-cards{
+.left {
+    left: 2px;
+}
+
+.right {
+    right: 2px;
+}
+
+.price-cards {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: var(--biggest);
 }
-.price-card{
+
+.price-card {
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 20px 60px;
+    width: 350px;
+    height: 400px;
     border-radius: 20px;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     gap: var(--big);
 }
+
 .price-card:nth-of-type(3) h3,
 .price-card:nth-of-type(3) p,
 .price-card:nth-of-type(3) h5 {
     color: var(--white) !important;
 }
-.price-card:nth-of-type(3){
+
+.price-card:nth-of-type(3) {
     background-color: var(--purple);
 }
-.price-card:nth-of-type(3) a{
+
+.price-card:nth-of-type(3) a {
     background-color: var(--white);
     color: var(--purple);
 }
-.price-card div{
+
+.price-card div {
     display: flex;
     flex-direction: column;
     gap: var(--smallest);
 }
-.details{
 
-}
 
-.details li{
-    margin-left: 18px ;
+.details li {
+    margin-left: 18px;
     list-style: none;
-    list-style-type: circle;
 }

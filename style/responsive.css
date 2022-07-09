@@ -134,4 +134,18 @@
     .price-cards{
         flex-direction: column;
     }
+    .blog {
+        padding: 50px 70px;
+        align-items: center;
+        gap: var(--big);
+    }
+    .mainBlog{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--big);
+        width: 350px;
+    }
+    .mainBlog img{
+        width: 300px;
+    }
 }
