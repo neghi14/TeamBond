@@ -1,0 +1,75 @@
+.about {
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--biggest);
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: var(--biggest);
+}
+
+.members {
+    display: flex;
+    gap: var(--midBig);
+
+}
+
+.members div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small);
+}
+
+.members div img {
+    width: 300px;
+}
+
+.identity {
+    display: flex;
+    flex-direction: column;
+    gap: var(--midBig);
+}
+
+.brandIdentity {
+    display: flex;
+    gap: var(--small);
+    justify-content: center;
+}
+
+.brandIdentity>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--big);
+    width: 300px;
+}
+
+.circleIdentity {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--lightPurple);
+}
+
+.letter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: var(--small);
+    margin: 0 auto;
+    padding: 55px 48px;
+    border-radius: 10px;
+    width: 800px;
+    height: 1000px;
+    box-shadow: var(--smallShadow);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: var(--big);
+}

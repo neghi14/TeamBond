@@ -141,11 +141,28 @@
     }
     .mainBlog{
         flex-direction: column;
-        align-items: flex-start;
         gap: var(--big);
         width: 350px;
     }
     .mainBlog img{
         width: 300px;
+    }
+    .about{
+        padding: 20px 20px;
+        gap: var(--midSmall);
+        align-items: center;
+    }
+    .team h4{
+        font-size: 1em !important;
+    }
+    .members{
+        flex-direction: column;
+        align-items: center;
+    }
+    .brandIdentity{
+        flex-direction: column;
+    }
+    .message{
+        display: none;
     }
 }
