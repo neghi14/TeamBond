@@ -128,41 +128,65 @@
     .active-offer-text {
         font-weight: 700 !important;
     }
-    .price{
+
+    .price {
         padding: 20px 50px;
     }
-    .price-cards{
+
+    .price-cards {
         flex-direction: column;
     }
+
     .blog {
         padding: 50px 70px;
         align-items: center;
         gap: var(--big);
     }
-    .mainBlog{
+
+    .mainBlog {
         flex-direction: column;
         gap: var(--big);
         width: 350px;
     }
-    .mainBlog img{
+
+    .mainBlog img {
         width: 300px;
     }
-    .about{
+
+    .about {
         padding: 20px 20px;
         gap: var(--midSmall);
         align-items: center;
     }
-    .team h4{
+
+    .team h4 {
         font-size: 1em !important;
     }
-    .members{
+
+    .members {
         flex-direction: column;
         align-items: center;
     }
-    .brandIdentity{
+
+    .brandIdentity {
         flex-direction: column;
     }
-    .message{
+
+    .message {
         display: none;
+    }
+
+    .contact {
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+
+    .contact img {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 340px;
     }
 }

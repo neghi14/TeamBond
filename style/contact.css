@@ -1,0 +1,87 @@
+.contact {
+    display: flex;
+    padding: 100px 110px;
+    gap: var(--biggest);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small);
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contactIco {
+    width: 24px;
+    stroke: var(--charcoal);
+}
+
+.contactDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contactDetail a{
+    text-decoration: none;
+    color: var(--charcoal);
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small);
+    align-items: flex-start;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+label {
+    font-size: 0.875em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+::placeholder {
+    font-size: 0.875em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+input {
+    width: 540px;
+    height: 46px;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #C8C8BF;
+}
+
+input:focus, textarea:focus{
+    outline: 1px solid var(--purple);
+}
+
+textarea{
+    resize: none;
+    width: 540px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #C8C8BF;
+}
+
+button{
+    color: var(--white);
+    border: none;
+    width: 150px;
+}

@@ -14,9 +14,9 @@ clickerClose.addEventListener('click', () => {
     navBtn.classList.remove('active');
 });
 
-const pathname = document.location.href;
+const pathname = document.URL;
 
-function path (){
+const path =  () => {
         navLinkLI.forEach(link => {
             if(pathname === link.firstElementChild.href){
                 link.classList.add('active-link')
