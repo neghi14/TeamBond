@@ -85,7 +85,12 @@ footer div {
 .white {
     color: var(--white);
 }
-
+.darkBlue {
+    color: var(--darkBlue);
+}
+.darkRed {
+    color: var(--darkRed);
+}
 .charcoal {
     color: var(--charcoal) !important;
 }

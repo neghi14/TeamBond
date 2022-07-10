@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/style/contact.css">
     <link rel="stylesheet" href="/style/responsive.css">
     <script src="/script/app.js" defer></script>
+    <script src="/script/auth.js" defer></script>
     <title>TeamBond | Contact</title>
 </head>
 
@@ -48,16 +49,18 @@
                     get back to you asap.</p>
                 <form>
                     <div>
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" placeholder="Jon Wick">
+                        <label for="name">Your Name*</label>
+                        <input type="text" id="name" name="name" placeholder="Jon Wick" required>
+                        <p class="r-small-2"></p>
                     </div>
                     <div>
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email" placeholder="Jon@wick.com">
+                        <label for="email">Your Email*</label>
+                        <input type="email" id="email" name="email" placeholder="Jon@wick.com" required>
+                        <p class="r-small-2"></p>
                     </div>
                     <div>
-                        <label for="message">Your Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <label for="message">Your Message*</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                     </div>
                     <button class="cfa-btn">Send</button>
                 </form>

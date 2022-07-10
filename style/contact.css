@@ -22,7 +22,8 @@
     flex-direction: column;
     align-items: flex-start;
 }
-.contactDetail a{
+
+.contactDetail a {
     text-decoration: none;
     color: var(--charcoal);
     display: flex;
@@ -41,6 +42,7 @@ form div {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    gap: var(--smallest);
 }
 
 label {
@@ -64,23 +66,29 @@ input {
     height: 46px;
     outline: none;
     padding: 10px 20px;
-    border-radius: 4px;
     border: 1px solid #C8C8BF;
+    border-radius: 4px;
+
 }
 
-input:focus, textarea:focus{
-    outline: 1px solid var(--purple);
+.error:focus {
+    border: 2px solid var(--darkRed) !important;
 }
 
-textarea{
+textarea {
     resize: none;
     width: 540px;
     padding: 10px 20px;
     border-radius: 4px;
-    border: 1px solid #C8C8BF;
+    border: 1px solid #C8C8BF !important;
 }
 
-button{
+input:focus,
+textarea:focus {
+    border: 2px solid var(--purple) !important;
+}
+
+button {
     color: var(--white);
     border: none;
     width: 150px;
