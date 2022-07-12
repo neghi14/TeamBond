@@ -28,8 +28,13 @@
         flex-direction: column;
         align-items: flex-start;
         background-color: white;
-        animation: fadeIn .2s linear;
+        animation: slideIn .2s linear;
+        /* transition:  transform .3s linear; */
         z-index: 2;
+    }
+
+    .nav-links.active{
+        /* transform: translateX(10%); */
     }
 
     .nav-links li {
@@ -187,6 +192,9 @@
 
     input,
     textarea {
+        width: 340px;
+    }
+    .auth-btn{
         width: 340px;
     }
 }
